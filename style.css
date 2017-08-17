@@ -45,21 +45,49 @@ table {
 /* Correct style sheet */
 
 #carousel {
-	display: inline-block;
-	text-align: center;
+	margin: 100px auto;
+	width: 800px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
 }
 
 ul {
 	list-style-type: none;
-	max-width: 2000px;
+	width: 800px;
+	height: 300px;
 }
 
 img {
 	width: 400px;
 	height: 300px;
-	overflow: hidden;
+	object-fit: cover;
 }
 
 ul li  {
 	float: left;
+}
+
+.icon {
+	display: inline-block;
+	font-size: 50px;
+}
+
+i.fa {	
+	font-size: 30px;
+	color: rgba(255, 255, 255, .8);
+}
+	
+
+.left {
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	font-size: 50px;
+}
+
+.right {
+	position: absolute;
+	top: 120px;
+	right: 20px;
 }
